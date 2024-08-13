@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    background-color: rgb(247, 238, 238);
     background-color: black;
     color: white;
     width: 100%;
@@ -11,104 +12,86 @@
 .container
 {
     height: 100vh;
-    width: 100%;
+    width: inherit;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid ;
+    /* border: 1px solid ; */
     /* flex-wrap: wrap; */
-
+    /* overflow: hidden; */
 }
-/* body
+body
 {
-    position: fixed;
-} */
- /* .block
+    width: 100vw;
+}
+ .block
  {
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
 
- } */
+ }
 .heading
 {
-    /* position: relative; */
     text-align: center;
-    /* top: 200px; */
+    box-sizing: border-box;
+    padding: 30px;
     background: linear-gradient(to left,rgb(34, 9, 227),rgb(244, 5, 5));
     -webkit-background-clip:text;
     color: transparent;
 }
+.inner_block
+{
+    box-sizing: border-box;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+}
+.block1
+{
+    /* border: 1px solid pink; */
+    margin-bottom: 30px;
+    height: 40px;
+}
 .ui
 {
-    /* position: relative; */
-    /* text-align: center;  */
-    /* top: 240px;
-    left: 500px; */
     font-size: 20px;
-}
- .pswd
-{
-    /* position: relative; */
-    /* text-align: center; */
-    /* top: 290px;
-    left: 500px; */
-    font-size: 20px;
+    margin-bottom: 20px;
 }
 .eui
 {
-    /* position: relative; */
-    /* text-align: center; */
-    /* top: 270px;
-    left: 500px; */
-    width: 500px;
     border-radius: 0.5rem;
-    padding-left: 40px;
-    box-sizing: border-box;
     height: 40px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 20px;
     border: 1px solid rgb(62, 61, 61);
     background-color: rgb(62, 61, 61);
+}
+ .pswd
+{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 .psd
 {
-    /* position: relative; */
-    /* text-align: center; */
-    /* top: 310px;
-    left: 500px; */
-    width: 500px;
     border-radius: 0.5rem;
-    padding-left: 40px;
+    padding-left: 20px;
+    font-size: 15px;
     box-sizing: border-box;
     height: 40px;
     border: 1px solid rgb(62, 61, 61);
     background-color: rgb(62, 61, 61);
-}
-.envolope
-{
-    color: white;
-    /* position: relative;
-    top: 240px;
-    left:510px; */
-    background-color: transparent;
-    /* opacity: 0.6; */
-}
-.lock
-{
-    color: white;
-     /* position: relative;  
-     top: 280px;
-    left: 510px; */
-    background-color: transparent;
-    /* opacity: 0.7; */
 }
 .btn
 {
     background-color: white;
     color: black;
-    width: 500px;
+    margin-top: 10px;
     height: 40px;
-     position: relative;
-    top: 350px;
-    left: 500px; 
      cursor: pointer;
     border: 1px solid white;
     border-radius: 0.5rem;
