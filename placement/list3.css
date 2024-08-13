@@ -1,0 +1,332 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* width: 100%; */
+}
+body
+{
+    background-color: black;
+}
+.container
+{
+    width: 99%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.left
+{
+    width: 20%;
+    height: 1000px;
+    background-color: rgb(75, 68, 68);
+    border-radius: 0.5rem;
+}
+.right
+{
+    width: 78%;
+    height: 1060px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0.5rem;
+}
+.heading
+{
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
+    -webkit-background-clip:text;
+    color: transparent;
+    text-align: center;
+}
+.border
+{
+    margin-left: 20px;
+    width: 240px;
+    margin-top: 3px;
+    background: linear-gradient(#22222221, #22222210), 
+    linear-gradient(to left, rgb(29, 7, 190),rgb(192, 49, 10));
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; 
+    border: 2px solid transparent;
+}
+.border1
+{
+    color: transparent;
+    margin-top: 3px;
+    background: linear-gradient(#22222291, #696666), 
+    linear-gradient(to left, rgb(35, 9, 238),rgb(174, 43, 7));
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; 
+    border: 2px solid transparent;
+}
+.upper
+{
+    height: 140px;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: rgb(75, 68, 68);
+}
+.lower
+{
+    width: 100%;
+    height: 900px;
+    margin-top: 20px;
+    display: flex;
+}
+.left1
+{
+    width: 49%;
+    background-color: rgb(75, 68, 68);
+    border-radius: 0.5rem;
+}
+.right1
+{
+    width: 49%;
+    margin-left: 20px;
+    background-color: rgb(75, 68, 68);
+    border-radius: 0.5rem;
+}
+.heading2
+{
+    padding-top:  20px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.heading3
+{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background: linear-gradient(to left,rgb(130, 34, 8),rgb(24, 7, 149),rgb(96, 3, 82));
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.heading5
+{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background: linear-gradient(to left,rgb(130, 34, 8),rgb(24, 7, 149),rgb(96, 3, 82));
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.divide
+{
+    margin-left: 20px;
+    border-radius: 0.5rem;
+    width: 93%;
+    margin-top: 20px;
+    height: 350px;
+}
+.block
+{
+    width: 93%;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+}
+.based
+{
+    color: black;
+}
+.text
+{
+    color: gray;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.btnn
+{
+    position: relative;
+    left: 230px;
+    background-image: linear-gradient(to right ,rgb(227, 59, 185), rgb(90, 10, 148));
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 0.5rem;
+    color:white;
+}
+.type
+{
+    color: black;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.detail
+{
+    margin-top: 20px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.detail1
+{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    font-weight: bolder;
+}
+.detail11
+{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    left: 13px;
+    font-weight: bolder;
+}
+.detail111
+{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-weight: bolder;
+}
+.num
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.std
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.heading4
+{
+    text-align: center;
+    padding-top: 20px;
+    background: linear-gradient(to left ,rgb(17, 5, 111),rgb(28, 7, 188),rgba(227, 5, 194, 0.97),rgba(193, 10, 166, 0.97));
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.down1
+{
+    margin-left: 20px;
+    background-color:white;
+    border-radius: 0.5rem;
+    width: 93%;
+    margin-top: 20px;
+    height: 300px;
+}
+.btn
+{
+    background-image: linear-gradient(to right ,rgb(227, 59, 185), rgb(90, 10, 148));
+    border: none;
+    border-radius: 0.5rem;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 400px;
+}
+.pp
+{
+    
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.para
+{
+    box-sizing: border-box;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.logo
+{
+    position: relative;
+    right: 5px;
+    font-size: 20px;
+}
+.logo1
+{
+    margin-right: 10px;
+    font-size: 45px;
+    background-color: rgb(125, 13, 145);
+    border-radius: 100%;
+}
+.logo11
+{
+    background-color:transparent;
+    margin-left: 20px;
+    font-size: 40px;
+    color: rgba(155, 6, 162, 0.825);
+}
+.logo12
+{
+    background-color:transparent;
+    margin-left: 20px;
+    font-size: 39px;
+    color: rgba(155, 6, 162, 0.825);
+}
+.logo121
+{
+    background-color:transparent;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgba(155, 6, 162, 0.825);
+}
+.logo13
+{
+    background-color:transparent;
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgba(155, 6, 162, 0.825);
+}
+/* .left nav{
+    padding-left: 40px;
+    padding-top: 60px;
+} */
+
+.left nav ul {
+    list-style:none;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.left nav ul li a.active
+{
+    background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
+    height: 40px;
+}
+.left nav ul li a:hover {
+    background-color: grey;
+    height: 40px;
+}
+a:-webkit-any-link { 
+    cursor: pointer; 
+}

@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* height:100%; */
+    
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    /* flex-wrap: wrap; */
+
+}
+/* body
+{
+    position: fixed;
+} */
+ /* .block
+ {
+    height: 100%;
+    width: 100%;
+
+ } */
+.heading
+{
+    /* position: relative; */
+    text-align: center;
+    /* top: 200px; */
+    background: linear-gradient(to left,rgb(34, 9, 227),rgb(244, 5, 5));
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.ui
+{
+    /* position: relative; */
+    /* text-align: center;  */
+    /* top: 240px;
+    left: 500px; */
+    font-size: 20px;
+}
+ .pswd
+{
+    /* position: relative; */
+    /* text-align: center; */
+    /* top: 290px;
+    left: 500px; */
+    font-size: 20px;
+}
+.eui
+{
+    /* position: relative; */
+    /* text-align: center; */
+    /* top: 270px;
+    left: 500px; */
+    width: 500px;
+    border-radius: 0.5rem;
+    padding-left: 40px;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgb(62, 61, 61);
+    background-color: rgb(62, 61, 61);
+}
+.psd
+{
+    /* position: relative; */
+    /* text-align: center; */
+    /* top: 310px;
+    left: 500px; */
+    width: 500px;
+    border-radius: 0.5rem;
+    padding-left: 40px;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgb(62, 61, 61);
+    background-color: rgb(62, 61, 61);
+}
+.envolope
+{
+    color: white;
+    /* position: relative;
+    top: 240px;
+    left:510px; */
+    background-color: transparent;
+    /* opacity: 0.6; */
+}
+.lock
+{
+    color: white;
+     /* position: relative;  
+     top: 280px;
+    left: 510px; */
+    background-color: transparent;
+    /* opacity: 0.7; */
+}
+.btn
+{
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 40px;
+     position: relative;
+    top: 350px;
+    left: 500px; 
+     cursor: pointer;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
