@@ -1,0 +1,257 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* width: 100%; */
+}
+body
+{
+    background-color: black;
+    overflow: hidden;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left
+{
+    width: 20vw;
+    height: 96vh;
+    margin: 20px 0px 10px 20px;
+    background-color: rgb(75, 68, 68);
+    border-radius: 0.5rem;
+}
+.right
+{
+    width: 75vw;
+    height: 94vh;
+    margin: 20px 10px 10px 20px;
+    border-radius: 0.5rem;
+}
+.upper
+{
+    height: 15vh;
+    border-radius: 0.5rem;
+    background-color: rgb(75, 68, 68);
+}
+.middle
+{
+    height: 29vh;
+    margin-top: 20px;
+    display: flex;
+}
+.lower
+{
+    height: 43vh;
+    margin-top: 20px;
+    background-color: rgb(75, 68, 68);
+    border-radius: 0.5rem;
+}
+.heading
+{
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
+    -webkit-background-clip:text;
+    color: transparent;
+    text-align: center;
+}
+.heading1
+{
+    font-size: 25px;
+    background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.title
+{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 40px;
+    color: gray;
+}
+.title1
+{
+    margin-left: 20px;
+    color: gray;
+}
+
+.item1
+{
+    width: 30vw;
+    background-color: rgb(75,68,68);
+    border-radius: 0.5rem;
+}
+.item2
+{
+    width: 15vw;
+    background-color: rgb(75,68,68);
+    border-radius: 0.5rem;
+    margin-left: 20px;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+   
+}
+.btnn
+{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to left ,indigo,rgba(255, 0, 89, 0.758));
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.lgg
+{
+   margin-top: 15px;
+}
+
+.heading2
+{
+    font-size: 15px;
+}
+.cpy
+{
+    text-align: center;
+    color: rgb(177, 165, 165);
+   
+}
+.cpy1
+{
+    text-align: center;
+}
+
+.border1
+{
+    color: transparent;
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(#22222291, #696666), 
+    linear-gradient(to left, rgb(35, 9, 238),rgb(174, 43, 7));
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; 
+    border: 2px solid transparent;
+}
+.p{
+    padding-top:  20px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+.border
+{
+    margin-left: 20px;
+    width: 240px;
+    margin-top: 3px;
+    background: linear-gradient(#222, #222), 
+    linear-gradient(to left, rgb(29, 7, 190),rgb(130, 34, 8));
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; 
+    border: 2px solid transparent;
+}
+.heading4
+{
+   box-sizing: border-box;
+   padding-top: 20px;
+   padding-left: 20px;
+   margin-bottom: 30px;
+   font-weight: 700;
+   font-size: 20px;
+    background: linear-gradient(to left , rgb(56, 7, 92),blue,blue,blue,rgba(192, 15, 15, 0.944));
+   -webkit-background-clip:text;
+   color: transparent; 
+}
+.btn1
+{
+    width: 50px;
+    height: 30px;
+    background-image: linear-gradient(to left ,indigo,rgba(255, 0, 89, 0.758));
+    border: none;
+    position: relative;
+    top: 0px;
+    left: 830px;
+    border-radius: 0.5rem;
+}
+.block
+{
+    margin: 15px 20px 0px 20px;
+    border-radius: 0.5rem;
+    height: 40px;
+    background-color: white;
+}
+.para
+{
+    color: #423f3f;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    display: flex;
+}
+.para1
+{
+    color: #423f3f;
+    box-sizing: border-box;
+    position: relative;
+    left: 995px;
+    font-size: 20px;
+}
+.para11
+{
+    color: #423f3f;
+    box-sizing: border-box;
+    position: relative;
+    left: 988px;
+    font-size: 20px;
+}
+.para12
+{
+    color: #423f3f;
+    box-sizing: border-box;
+    position: relative;
+    left: 963px;
+    font-size: 20px;
+}
+.logo
+{
+    position: relative;
+    right: 5px;
+    font-size: 20px;
+}
+.left nav ul {
+    /* list-style:none;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin: 0; */
+    list-style:none;
+    box-sizing: border-box;
+    padding: 40px 0px 0px 20px;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.left nav ul li a.active
+{
+    background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
+    height: 40px;
+}
+.left nav ul li a:hover {
+    background-color: grey;
+    height: 40px;
+}
+ a:-webkit-any-link { 
+     cursor: pointer; 
+ }
