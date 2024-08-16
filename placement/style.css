@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --gradient-theme-color: linear-gradient(to right,
+            #833ab4, #fd1d1d, #fcb045);
+}
+
+.container {
+    background-color: rgb(23 25 26);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    background-color: rgb(36 38 39);
+    width: 20vw;
+    height: 95vh;
+    margin: 10px 4px 10px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    width: 78vw;
+    height: 95vh;
+    margin: 10px 8px;
+}
+
+.edge-radius {
+    border-radius: 6px;
+}
+
+.font-white {
+    color: white;
+}
+
+.heading-1 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.gradient {
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
+    background-clip: text;
+    /* Standard property for non-WebKit browsers */
+    color: transparent;
+    /* Make the text color itself transparent */
+}
+
+.under-line-1 {
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    height: 2px;
+    width: 190px;
+}
+
+.nav-items {
+    width: 240px;
+    height: 45px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+}
+
+.nav-box {
+    height: inherit;
+    margin: 10px 0px;
+}
+
+.text-deco-none {
+    text-decoration: none;
+}
+
+.nav-items:hover {
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+}
+
+.icons-box {
+    height: 30px;
+    width: 30px;
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    border-radius: 8px;
+    margin: 0px 8px;
+}
+
+.numbers-data {
+    display: flex;
+    justify-content: space-between
+}
+
+.flex {
+    display: flex;
+}
+
+.info-adjust {
+    width: 190px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36 38 39);
+    padding: 8px 8px;
+}
+.icons-box-2{
+    height: 30px;
+    width: 30px;
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    border-radius: 8px;
+}
+.para-2{
+    color: #b3e1fd;
+}
+.charts{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
