@@ -9,12 +9,12 @@
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 180px;
+    /* border: 1px solid rgb(66, 213, 93); */
 }
 .blk{
-    /* width: 400px; */
     display: flex;
+    margin: 20px 0px 0px 0px ;
     /* border: 1px solid rgb(66, 213, 93); */
 }
 .btn
@@ -22,14 +22,14 @@
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    /* background-color: rgb(107, 43, 147); */
     background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
     border: 2px solid rgb(16, 15, 15);
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    margin-left: 30px;
+    margin-left: 30px; 
+    transition-delay: 500ms;
 }
 .log
 {
@@ -96,39 +96,34 @@ hr
     height: 350px;
     /* border: 1px solid red; */
 }
- /* .skills option
-{
-    background-color: rgb(161, 161, 208);
-    text-align: center;
-    font-size: 15px;
-}  */
-/* .skills
-{
-    width: 370px;
-    font-size: 15px;
-    margin: 10px 10px 0px 12px;
-    height: 40px;
-    border-radius: 0.5rem;
-    border: none;
-    background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
-} */
 .btn1 button
 {
     background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
     border: none;
     width: 70px;
     height: 40px;
-    margin-right: 40px;
+    margin: 0px 10px 0px 40px;
     border-radius: 0.5rem;
+    /* transition-delay: 500ms; */
+    /* border: 1px solid; */
 }
-.btn1 button i
+.btn11 button
+{
+    background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
+    border: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 0.5rem;
+    margin: 10px 20px 0px 0px;
+    transition-delay: 500ms;
+    /* border: 1px solid; */
+}
+.btn1 i 
 {
     margin-right: 5px;
 }
 .select h1
 {
-    /* text-align: center; */
-    /* margin-left: 50px; */
     font-size: 40px;
     /* padding: 10px 0px 10px 0px; */
     background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
@@ -155,7 +150,6 @@ hr
 {
    margin: 10px 0px 0px 0px ;
     /* border: 1px solid red; */
-    /* text-align: center; */
 } 
 .project input
 {
@@ -176,7 +170,8 @@ hr
 }
 .pjt
 {
-    margin-left: 20px;
+    margin: 0px 20px 0px 20px;
+    border: 1px solid black;
 } 
 .int
 {
@@ -185,19 +180,27 @@ hr
     border-radius: 0.5rem;
     background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
     border: none;
-    /* color: white; */
+}
+.choose::-webkit-file-upload-button
+{
+    background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
+    color: white;
+    height: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    /* width: 100px; */
 }
 input[type=file] {
     color: black;
-    /* font-weight: bold; */
+    font-weight: bold;
   }
 ::placeholder
 {
     color: white;
     box-sizing: border-box;
     padding-left: 10px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 13px;
+    /* font-weight: bold; */
 }
 .fa-plus
 {
@@ -226,4 +229,29 @@ input[type=file] {
     background: linear-gradient(to left ,rgb(29, 7, 190),rgb(130, 34, 8));
     -webkit-background-clip:text;
     color: transparent;
+}
+.detail 
+{
+    height: 35px;
+    width: 100px;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+    background-image: linear-gradient(to bottom right,rgb(102, 14, 202),rgb(223, 31, 63));
+    border: none;
+}
+.adt p
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.adt
+{
+    margin: 0px 20px 0px 20px;
+    border: 1px solid black;
+}
+button:hover
+{
+    background-color: blueviolet;
 }
